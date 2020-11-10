@@ -1,0 +1,449 @@
+ 
+   /*********************************/
+  /***********1.GLOBAL CSS**********/
+ /********************************/
+ 
+body {
+    position: relative;
+    margin: 0; 
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+html {
+    font-size: 62.5%;
+    line-height: 25px;
+    line-height: 2.5rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 1.5rem;
+} 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+.btn-sty {
+  color: #fff;
+  padding: 1rem 4rem;
+  background: #00AEED;
+  font-size: 1.5rem;
+  display: inline-block;
+  margin-top: 3rem;
+  border-radius: 3rem;
+  text-transform: capitalize;
+  transition: 0.5s;
+}
+.btn-sty:hover{
+  background: #47408D;
+  color: #fff
+}
+.section-padding{
+  padding: 10rem 0;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 5rem
+}
+.section-title h2{ 
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #000;
+  text-transform: uppercase;
+}
+   /*********************************/
+  /***********2.HEADER CSS**********/
+ /********************************/
+.header-area {
+  background: transparent;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  padding: 1rem 0;
+} 
+.logo h3 {
+  color: #fff;
+  font-size: 3.4rem;
+  font-weight: 900;
+}
+.logo span {
+  color: #47408d;
+}
+.menu ul {
+  display: flex;
+  justify-content: flex-end; 
+}
+.menu ul li{ 
+  padding:0 2rem;
+}
+.menu ul li a {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  padding:  1rem 0;
+  text-transform: uppercase;
+  display: inline-block; 
+  border-top: 0.5rem solid transparent;
+  transition: 0.3s;
+}
+.menu ul li a.active,
+.menu ul li a:hover{
+  border-top: 0.5rem solid #47408d; 
+}
+.nav-icon {
+  font-size: 3rem;
+  color: #fff;
+  display: none;
+}
+
+   /*********************************/
+  /***********3.BANNER CSS**********/
+ /********************************/
+.banner-area{
+  background: url('../images/banner/banner-2.png') no-repeat scroll 0 0 ,100% 100%;   
+  position: relative;
+}  
+.banner-left h1 {
+  font-size: 7rem;
+  color: #fff;
+  font-weight: 900;
+  padding: 20rem 0;
+}
+.banner-right p {
+  font-size: 1.7rem;
+  color: #fff;
+  max-width: 86%;
+}
+.banner-center {
+  width: 90%;
+  height: auto;
+  transform: translateY(86px);
+}
+.banner-center img{
+  width: 100%;
+  height: 100%;
+}
+
+   /*********************************/
+  /***********4.PORTFOLIO CSS******/
+ /********************************/
+ .portfolio-left h2 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.portfolio-left p {
+  font-size: 1.7rem;
+  margin: 2.5rem 0;
+}
+.portfolio-right {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 99;
+}
+.portfolio-right img {
+  width: 100%;
+  height: 100%;
+}
+.portfolio-box {
+  background: #0BB3CE;
+  width: 15rem;
+  height: 15rem;
+  position: absolute;
+  top: -4.5rem;
+  right: 2.4rem;
+  z-index: -9;
+}
+.portfolio-area .row {
+  align-items: center;
+}
+
+   /*********************************/
+  /**********5.TESTMONIALS CSS******/
+ /********************************/
+
+ .testmonials-area{
+  background: url('../images/testi/1.png') no-repeat scroll 0 0 / 100% 100%;
+  padding-top: 10rem;
+  position: relative;
+ }
+ .testi-item {
+  display: flex;
+  justify-content: space-between;
+}
+.testi-img {
+  flex: 0 0 30%;
+  height: auto;
+}
+.testi-img img{
+  width: 100%;
+  height: 100%;
+}
+.test-content {
+  display: flex;
+  justify-content: space-between;
+}
+.test-content p {
+  font-size: 1.7rem;
+  text-align: center;
+  color: #fff;
+  padding: 0 2rem;
+}
+.test-arrow {
+  flex: 0 0 15%;
+  height: 9rem;
+}
+.test-arrow img {
+  width: 100%;
+  height: 100%;
+} 
+.test-name h3 {
+  font-size: 3rem;
+  color: #fff;
+}
+.test-name p {
+  color: #fff;
+  font-size: 1.5rem;
+  padding: ;
+  margin-top: 0.3rem;
+}
+
+.testimonials .owl-dots {
+  position: absolute !important;
+  top: 80% !important;
+  left: 62% !important;
+}
+.testimonials .owl-dots .owl-dot.active span{
+  background: #00AEED
+}
+.test-name {
+  text-align: center; 
+  margin-top: 3rem;
+}
+.testi-item {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+}
+   /*********************************/
+  /**********6.SERVICES CSS*********/
+ /********************************/
+
+.service-area{
+  background: url('../images/service/1.png') no-repeat scroll 0 0 / 100% 100%;
+}
+.section-title p { 
+  color: #fff;
+  max-width: 94%;
+  margin: 2rem auto 0 auto;
+}
+.section-title h2{
+  color: #ffff;
+}
+.service-item {
+  text-align: center;
+  margin-top: 2rem;
+}
+.service-icon {
+  max-width: 30%;
+  margin: 0 auto;
+}
+.service-icon i {
+  color: #fff;
+  font-size: 4rem;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 500%;
+  line-height: 7rem; 
+  text-align: center;
+  border: 0.2rem solid #fff;
+}
+.service-item h3 {
+  margin: 2rem 0;
+  color: #fff;
+  font-size: 2.2rem;
+}
+.service-item p {
+  color: #fff;
+  max-width: 80%;
+  margin: 0 auto;
+}
+ 
+   /*********************************/
+  /**********7.WORKS CSS************/
+ /********************************/
+ 
+ .works-area .container-fluid{
+  padding-left: 0; 
+ }
+.works-img {
+  width: 102%;
+  height: auto;
+}
+.works-img img{
+  width: 100%;
+  height: 100%;
+} 
+.works-area .section-title h2 {
+  color: #000;
+  margin-top: 4rem;
+  text-align: left;
+}
+.work-content {
+  display: flex;
+  margin-bottom: 4rem;
+}
+.work-info h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.work-icon i {
+  font-size: 3rem;
+  margin-right: 2rem;
+}
+.work-info p {
+  max-width: 66%;
+  color: #585858;
+}
+
+   /*********************************/
+  /**********8.NEWS CSS************/
+ /********************************/
+
+ 
+.news-area .section-title h2 {
+  color: #000;
+}
+.news-img{
+  width: 100%;
+  height: auto;
+}
+.news-img img{
+  width: 100%;
+  height: 100%;
+}
+.news-item h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 2rem 0;
+}
+.news-item p {
+  color: #707070;
+  max-width: 86%;
+}
+
+
+   /*********************************/
+  /**********8.SOCIAL CSS************/
+ /********************************/
+
+
+.social-area{
+  background: url('../images/social-bg.png') no-repeat scroll 0 0 , 100% 100%;
+}
+.social-icon {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.social-icon i {
+  font-size: 3rem;
+  margin: 1rem;
+  width: 6rem;
+  height: 6rem;
+  line-height: 6rem;
+  text-align: center;
+  border-radius: 50%;
+  border: 0.2rem solid #fff;
+  color: #fff;
+  transition: 0.3s;
+}
+.social-icon i:hover{
+  cursor: pointer;
+  border:0.2rem solid #00AEED;
+}
+
+   /*********************************/
+  /**********9.CONTACTS CSS*********/
+ /********************************/
+
+.contact-area .section-title h2 {
+  color: #000;
+}
+.contact-left h3 {
+  font-size: 2rem;
+  font-size: 1.7rem;
+}
+.contact-social {
+  display: flex;
+  margin-top: 2rem;
+}
+.contact-social i {
+  font-size: 3rem;
+  white-space: ;
+  width: 5rem;
+  height: 5rem; 
+}
+.contact-location p {
+  color: #141414;
+}
+.contact-location span {
+  color: #585858;
+  font-size: 1.5rem;
+}
+.form-item textarea { 
+  width: 100%;
+  height: 9rem;
+}
+textarea,
+.form-item input[type="number"],
+.form-item input[type="email"],
+.form-item input[type="text"] { 
+  border: transparent;
+  border-bottom: 0.2rem solid #ddd;
+  width: 100%;
+}
+.form-item {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.form-item label {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  margin-right: 2rem;
+}
+.form-btn{
+  text-align: center;
+}
+
+
+   /*********************************/
+  /**********10.FOOTER CSS*********/
+ /********************************/
+
+ .footer-area{
+  background: #062736;
+  padding:3rem 0;
+  text-align: center;
+  color: #fff;
+ }
+ .footer p {
+  margin-bottom: 1rem;
+}

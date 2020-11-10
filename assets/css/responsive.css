@@ -1,0 +1,99 @@
+
+@media all and (min-width:991px){
+	.menu ul{
+		display: flex !important;
+	}
+}
+
+@media all and (max-width: 991px){
+	.menu ul {
+		flex-direction: column;
+		margin-top: 2rem;
+		display: none;
+	}
+	.logo {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.nav-icon{
+		display: block;
+	}
+	.banner-center { 
+		transform: translateY(3px);
+	}
+	.banner-left h1 {
+		font-size: 5rem; 
+	}
+	.banner-right p { 
+		max-width: 100%;
+	}
+	.btn-sty {
+		margin-top: 2rem;
+	}
+	.testi-img img {
+		width: 134%;
+		height: 93%;
+	}
+	.section-padding {
+		padding: 5rem 0;
+	}
+	.work-content {  
+		margin-bottom: 3rem;
+	}
+
+}
+
+
+
+@media all and (max-width: 767px){
+	.banner-center { 
+		display: none;
+	}
+	.banner-left h1 { 
+		padding: 12rem 0 3rem 0;
+		font-size: 4rem;
+	}
+	.banner-right {
+		padding-bottom: 3rem;
+	}
+	.portfolio-right { 
+		margin-top: 8rem;
+	}
+	.testi-img { 
+		display: none;
+	}
+	.section-title { 
+		margin-bottom: 3rem;
+	}
+	.news-item {
+		margin-bottom: 2rem;
+	}
+	.contact-left {
+		margin-bottom: 3rem;
+	}
+	.section-title h2 {
+		font-size: 2.5rem; 
+	}
+	.test-arrow img { 
+		height: 60%;
+	}
+}
+
+@media all and (max-width: 576px){
+	.banner-left h1 { 
+		font-size: 3rem;
+	}
+	.section-padding {
+		padding: 2rem 0;
+	}
+	.btn-sty {
+		margin-top: 0rem;
+	}
+	.news-item p { 
+		margin-bottom: 1rem;
+	}
+	.test-arrow img { 
+		height: 60%;
+	}
+}
